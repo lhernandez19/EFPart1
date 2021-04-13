@@ -10,7 +10,7 @@ namespace EFPart1.DataModels
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(
-            @"Server=bitsql.wctc.edu;Database=ldh_22097_Blogging;User ID=lhernandez19;Password=000557680"
+            @"Server=bitsql.wctc.edu;Database=ldh_22097_Blogging;User ID=xxxxx;Password=xxxxx"
             );
         }
     }
